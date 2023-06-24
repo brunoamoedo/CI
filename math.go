@@ -1,10 +1,11 @@
-package main 
+package main
 
 import "fmt"
 
-func main(){
-fmt.Println(Soma(5,4))
+func main() {
+	fmt.Println(soma(112, 10))
 }
-func Soma(a int, b int ) int {
+
+func soma(a int, b int) int {
 	return a + b
 }
